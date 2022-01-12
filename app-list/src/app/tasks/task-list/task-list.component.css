@@ -1,0 +1,44 @@
+.task-item{
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+    /* flex-grow: 1; */
+    /* margin-left: 20;
+    margin-left: 600px !important; */
+    
+}
+
+.task-completed{
+    text-decoration: line-through;
+    white-space: pre-line;
+}
+
+input {
+    margin:0 12px 0 0;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+
+.btn{
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* .btnDel{
+  background-color: transparent;
+  font-size: 1rem;
+  border-radius: 5px;
+  border-color: #e2160f;
+  box-shadow: 0 0 40px 40p inset;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  border-radius: 20px;
+  font-weight: bold;
+  box-sizing: border-box;
+} */
+
+/* .bordinha-form{
+    border: 1px solid black;
+    border-radius: 5px;
+} */

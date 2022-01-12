@@ -1,0 +1,20 @@
+header{
+    height: 70px;
+}
+.tag{
+    justify-content:center;
+}
+
+.bg{
+    background-color: rgb(184, 171, 154);
+}
+
+footer {
+    border-top: 1px solid #333;
+    background: #333;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}

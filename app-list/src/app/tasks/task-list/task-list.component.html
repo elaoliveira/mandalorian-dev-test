@@ -1,0 +1,44 @@
+<h2>Tarefas</h2>
+<p>&nbsp;</p>
+
+<button type="button" class="btn btn-dark mb-2" [routerLink]="['/new']">Nova Tarefa</button>
+<p>&nbsp;</p>
+
+<div class="">
+    <div class="form-check mb-2 d-flex justify-content-between" *ngFor="let item of tarefaArray">
+      <div>
+      <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+      <label class="form-check-label" for="autoSizingCheck">{{item.titulo}}</label>
+      </div>
+      <div>
+            <p>{{item.anotacao}}</p>
+      </div>
+      <div>
+      <button class="task-item btn btn-danger" (click)="delete(item.titulo)">Deletar</button>
+      </div>
+    </div>
+</div>
+
+<!-- <div class="col-auto">
+    <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+  </div>
+</div> -->
+
+<!-- <section>
+    <ul class="list-group">
+        <div class="d-flex" *ngFor="let item of listaTask">
+            <p>{{item}}</p>
+            <button class="task-item btn btn-danger">Deletar</button>
+        </div>
+    </ul>
+</section> -->
+
+<!-- <div class="col-md-12">
+    <div class="row flex-column">
+        <div class="d-flex" *ngFor="let item of listaTask">
+            <p>{{item}}</p>
+            <button class="btn btn-danger">Deletar</button>
+        </div>
+    </div>
+</div> -->
+
